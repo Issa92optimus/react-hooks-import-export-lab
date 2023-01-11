@@ -1,12 +1,16 @@
 import React from "react";
 
+
 function App() {
   return (
     <div>
-      <NavBar />
-      <Home />
-      <About />
+        <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+        </nav>
+
     </div>
+
   );
 }
 
